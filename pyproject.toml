@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nebula-collection-registry"
+authors = [
+    {name = "Kozmoai", email = "help@nebula.io"},
+]
+description = "Maintaining the Nebula Collection Registry"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "nebula",
+    "fastjsonschema==2.16.2",
+    "github3.py>=3.2.0",
+
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["pytest", "coverage", "nebula-kubernetes"]
