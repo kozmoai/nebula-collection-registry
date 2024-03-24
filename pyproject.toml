@@ -14,7 +14,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
-    "nebula",
+    "nebulaconsole",
     "fastjsonschema==2.16.2",
     "github3.py>=3.2.0",
 

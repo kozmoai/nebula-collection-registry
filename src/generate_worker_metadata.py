@@ -66,7 +66,7 @@ def get_worker_metadata_from_nebula():
             ),
             "display_name": "Nebula Agent",
             "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/c771bb53894c877e169c8db158c5598558b8f175-24x24.svg",
-            "install_command": "pip install nebula",
+            "install_command": "pip install nebulaconsole",
             "default_base_job_configuration": {},
             "description": (
                 "Execute flow runs on heterogeneous infrastructure using infrastructure"

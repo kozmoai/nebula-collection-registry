@@ -13,7 +13,7 @@ from src import metadata_schemas, utils
 
 @pytest.fixture
 def flow_summary():
-    content = Path("collections/nebula-airbyte/flows/v0.2.0.json").read_text()
+    content = Path("collections/nebula-airbyte/flows/v1.0.0.json").read_text()
     return json.loads(content)
 
 
@@ -26,7 +26,7 @@ class TestFindFlowsInModule:
 class TestJsonSchemaValidation:
     @pytest.fixture
     def individual_flow_summary(self):
-        content = Path("collections/nebula-airbyte/flows/v0.2.0.json").read_text()
+        content = Path("collections/nebula-airbyte/flows/v1.0.0.json").read_text()
         return json.loads(content)["nebula-airbyte"]["run_connection_sync"]
 
     def test_individual_valid_flow_schema_passes(self, individual_flow_summary):

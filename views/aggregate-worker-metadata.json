@@ -5,7 +5,7 @@
       "documentation_url": "https://docs.nebula.io/latest/concepts/work-pools/#agent-overview",
       "display_name": "Nebula Agent",
       "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/c771bb53894c877e169c8db158c5598558b8f175-24x24.svg",
-      "install_command": "pip install nebula",
+      "install_command": "pip install nebulaconsole",
       "default_base_job_configuration": {},
       "description": "Execute flow runs on heterogeneous infrastructure using infrastructure blocks."
     },
@@ -66,7 +66,7 @@
       "description": "Execute flow runs as subprocesses on a worker. Works well for local execution when first getting started.",
       "display_name": "Local Subprocess",
       "documentation_url": "https://docs.nebula.io/latest/api-ref/nebula/workers/process/",
-      "install_command": "pip install nebula",
+      "install_command": "pip install nebulaconsole",
       "is_beta": false,
       "logo_url": "https://cdn.sanity.io/images/3ugk85nk/production/356e6766a91baf20e1d08bbe16e8b5aaef4d8643-48x48.png",
       "type": "process"
